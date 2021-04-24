@@ -18,7 +18,7 @@ Crie um arquivo README.md especificando quais comandos precisamos executar para 
 ```bash
   docker run --name mysql-desafio-pfa --network pfa-desafio -e MYSQL_DATABASE=fullcycle -e MYSQL_ROOT_PASSWORD=123456 -v $(pwd)/mysql:/var/lib/mysql -d mysql
 ```
-### Criar Docker Node
+### Docker Node
 ```bash
   docker run --name node-desafio-pfa --network pfa-desafio -d ianmateus/node-desafio-pfa
 ```
