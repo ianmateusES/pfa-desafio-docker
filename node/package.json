@@ -1,0 +1,16 @@
+{
+  "name": "nginx",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js",
+    "migration": "npx knex migrate:latest"
+  },
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "knex": "^0.95.4",
+    "mysql2": "^2.2.5"
+  }
+}
